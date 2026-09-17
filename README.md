@@ -13,7 +13,9 @@ Competition: [enveda-CASMI26-molecule-id-mass-spectra](https://www.kaggle.com/co
 | Test | ~400 molecules, ~1,500 timsTOF spectra |
 | Train | ~2.5M spectra, ~275k structures |
 
-Open `submit_portal.html` for every Kaggle field with a **Copy** button. Open `submission_mode.html` for the animated console.
+Open `submit_portal.html` (or `/` on Vercel) for every Kaggle field with a **Copy** button. Open `submission_mode.html` for the animated console.
+
+Vercel serves only the static HTML. It is not a Python app.
 
 ## What you submit
 
@@ -51,7 +53,7 @@ This is the right first submit: it solves **class 1** (public-library structures
 ## Local demo
 
 ```bash
-python -m pip install -e ".[dev]"
+python -m pip install -r requirements.txt pytest
 python scripts/demo.py
 python -m pytest -q
 ```

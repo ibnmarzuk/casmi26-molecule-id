@@ -1,0 +1,6 @@
+{
+  "name": "casmi26-molecule-id",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static CASMI 2026 submission console"
+}
