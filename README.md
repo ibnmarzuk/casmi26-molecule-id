@@ -13,7 +13,7 @@ Competition: [enveda-CASMI26-molecule-id-mass-spectra](https://www.kaggle.com/co
 | Test | ~400 molecules, ~1,500 timsTOF spectra |
 | Train | ~2.5M spectra, ~275k structures |
 
-Open `submission_mode.html` for the animated submission console.
+Open `submit_portal.html` for every Kaggle field with a **Copy** button. Open `submission_mode.html` for the animated console.
 
 ## What you submit
 
