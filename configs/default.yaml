@@ -1,0 +1,24 @@
+paths:
+  competition_dir: /kaggle/input/enveda-CASMI26-molecule-id-mass-spectra
+  train: train.parquet
+  test: test.parquet
+  output: submission.csv
+
+search:
+  ppm_tol: 15.0
+  mz_tol: 0.02
+  intensity_floor: 0.01
+  max_peaks: 64
+  precursor_pad_da: 2.0
+  min_peaks: 3
+  top_k_spectra: 400
+  top_k_smiles: 25
+  sqrt_intensities: true
+  require_adduct_match: false
+  weight_modified_cosine: 0.55
+  weight_entropy: 0.45
+
+aggregation:
+  method: rrf
+  rrf_k: 60
+  min_score: 0.02
